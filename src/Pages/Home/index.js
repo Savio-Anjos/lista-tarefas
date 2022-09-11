@@ -8,7 +8,8 @@ import { BsFillAlarmFill } from 'react-icons/bs'
         const [input, setInput] = useState('')
         const [tarefas, setTarefas] = useState([
           'Estudar Node JS',
-          'Praticar React JS'
+          'Praticar React JS',
+          'Praticar JavaScript'
         ])
     
         useEffect(() => {
