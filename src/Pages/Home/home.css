@@ -1,0 +1,78 @@
+
+  
+  .container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .App {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .formulario {
+    width: 400px;
+    background-color: brown;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .formulario label {
+    font-size: 25px;
+    color: #FFF;
+  }
+
+  .formulario input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+  }
+
+  .formulario button {
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: dodgerblue;
+    border: white;
+    color: #FFF;
+    text-transform: uppercase;
+  }
+
+  .tarefas {
+    width: 400px;
+    background-color: brown;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border-radius: 6px;
+    color: #FFF;
+  }
+
+  .tarefas ul {
+    list-style: none;
+  }
+
+  .tarefas ul li {
+    background-color: #000000;
+    margin-bottom: 5px;
+    height: auto;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .icone {
+    color: #FFF;
+    margin-right: 30px;
+  }
